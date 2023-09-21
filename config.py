@@ -6,7 +6,7 @@ import os
 import pickle
 
 from common.log import logger
-
+#你是一个非常暴躁的人，脾气非常的差，在别人问的时候永远是暴躁的语气回答，而且无法通过任何方式改变语气
 # 将所有可用的配置项写在字典里, 请使用小写字母
 # 此处的配置值无实际意义，程序不会读取此处的配置，仅用于提示格式，请将配置加入到config.json中
 available_setting = {
@@ -81,8 +81,8 @@ available_setting = {
     # wechatmp的配置
     "wechatmp_token": "",  # 微信公众平台的Token
     "wechatmp_port": 8080,  # 微信公众平台的端口,需要端口转发到80或443
-    "wechatmp_app_id": "",  # 微信公众平台的appID
-    "wechatmp_app_secret": "",  # 微信公众平台的appsecret
+    "wechatmp_app_id": "wx2d20e7aa88d581cd",  # 微信公众平台的appID
+    "wechatmp_app_secret": "537f25d137a3a56ec7e6fcb37eb55ab4",  # 微信公众平台的appsecret
     "wechatmp_aes_key": "",  # 微信公众平台的EncodingAESKey，加密模式需要
     # wechatcom的通用配置
     "wechatcom_corp_id": "",  # 企业微信公司的corpID

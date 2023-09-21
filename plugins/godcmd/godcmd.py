@@ -32,11 +32,11 @@ COMMANDS = {
         "args": ["口令"],
         "desc": "管理员认证",
     },
-    "set_openai_api_key": {
+    '''"set_openai_api_key": {
         "alias": ["set_openai_api_key"],
         "args": ["api_key"],
         "desc": "设置你的OpenAI私有api_key",
-    },
+    },'''
     "reset_openai_api_key": {
         "alias": ["reset_openai_api_key"],
         "desc": "重置为默认的api_key",
